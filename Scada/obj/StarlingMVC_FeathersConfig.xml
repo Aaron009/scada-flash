@@ -32,17 +32,17 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>E:\Github\scada-flash\Scada\src</path-element>
+      <path-element>C:\Users\Feiran\Desktop\Scada\src</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>E:\Github\scada-flash\Scada\lib\starling.swc</path-element>
-      <path-element>E:\Github\scada-flash\Scada\lib\starlingMVC.swc</path-element>
-      <path-element>E:\Github\scada-flash\Scada\lib\feathers.swc</path-element>
+      <path-element>C:\Users\Feiran\Desktop\Scada\lib\starling.swc</path-element>
+      <path-element>C:\Users\Feiran\Desktop\Scada\lib\starlingMVC.swc</path-element>
+      <path-element>C:\Users\Feiran\Desktop\Scada\lib\feathers.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>E:\Github\scada-flash\Scada\src\StarlingMVC_example.as</path-element>
+    <path-element>C:\Users\Feiran\Desktop\Scada\src\StarlingMVC_example.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>
