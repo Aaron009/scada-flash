@@ -56,9 +56,6 @@ package com.bitcrew.views
 			const atlasBitmapData:BitmapData = (new ATLAS_IMAGE()).bitmapData;
 			var atlas:TextureAtlas = new TextureAtlas(Texture.fromBitmapData(atlasBitmapData, false), XML(new ATLAS_XML()));
 			
-			
-			
-			
 			//trace(Constants.stageWidth,Constants.stageHeight)
 			
 			// 还是会出现视图窗口白边
@@ -109,7 +106,7 @@ package com.bitcrew.views
 			primaryBackground.width = root.stage.stageWidth;
 			primaryBackground.height = root.stage.stageHeight;
 			primaryBackground.textureScale = Constants.scale; //缩放纹理
-			addChildAt(primaryBackground, 0);
+			//addChildAt(primaryBackground, 0);
 		}
 		
 		public static function get assetManager():AssetManager

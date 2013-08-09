@@ -18,7 +18,7 @@
 		<minimizable>true</minimizable> 
 		<maximizable>true</maximizable> 
 		<resizable>true</resizable> 
-		<renderMode>direct</renderMode>
+		<renderMode>gpu</renderMode>
 	</initialWindow> 
 	
 	<!-- 

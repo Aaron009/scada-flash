@@ -54,6 +54,7 @@
     <element path="lib\starling.swc" />
     <element path="lib\starlingMVC.swc" />
     <element path="lib\feathers.swc" />
+    <element path="lib\Starling-Extension-Graphics.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>

@@ -16,7 +16,7 @@
     </define>
     <define append="true">
       <name>CONFIG::timeStamp</name>
-      <value>'2013/8/8'</value>
+      <value>'2013/8/9'</value>
     </define>
     <define append="true">
       <name>CONFIG::air</name>
@@ -32,17 +32,18 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>C:\Users\Feiran\Desktop\Scada\src</path-element>
+      <path-element>E:\Github\scada-flash\Scada\src</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>C:\Users\Feiran\Desktop\Scada\lib\starling.swc</path-element>
-      <path-element>C:\Users\Feiran\Desktop\Scada\lib\starlingMVC.swc</path-element>
-      <path-element>C:\Users\Feiran\Desktop\Scada\lib\feathers.swc</path-element>
+      <path-element>E:\Github\scada-flash\Scada\lib\starling.swc</path-element>
+      <path-element>E:\Github\scada-flash\Scada\lib\starlingMVC.swc</path-element>
+      <path-element>E:\Github\scada-flash\Scada\lib\feathers.swc</path-element>
+      <path-element>E:\Github\scada-flash\Scada\lib\Starling-Extension-Graphics.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>C:\Users\Feiran\Desktop\Scada\src\StarlingMVC_example.as</path-element>
+    <path-element>E:\Github\scada-flash\Scada\src\StarlingMVC_example.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>30</default-frame-rate>

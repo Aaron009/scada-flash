@@ -32,10 +32,10 @@ package
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.align = StageAlign.TOP_LEFT;
 			
-			Starling.multitouchEnabled = true;  // useful on mobile devices
+			//Starling.multitouchEnabled = true;  // useful on mobile devices
 			Starling.handleLostContext = false;  // required on Android
 			
-			stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
+			//stage.displayState = StageDisplayState.FULL_SCREEN_INTERACTIVE;
 			
 			///////////////////////////////////////////////////////////////////////
 			// create a suitable viewport for the screen size
@@ -50,13 +50,13 @@ package
 			///////////////////////////////////////////////////////////////////////
 			// calculate aspect ratio
 			
-			Constants.stageWidth = 480;
+			Constants.stageWidth = 568;
 			Constants.stageHeight = 320;
 			Constants.isIPhone5Retina = false;
 			Constants.xOffsetLeft = -44;
 			Constants.xOffsetRight = 0;
 			
-			if(screenWidth == 1136) // iPhone 5 Retina
+			if(false) // iPhone 5 Retina screenWidth == 1136
 			{
 				Constants.stageWidth = 568;
 				Constants.stageHeight = 320;
@@ -68,11 +68,11 @@ package
 			Constants.aspectRatio = Constants.stageHeight / Constants.stageWidth;
 			
 			viewPort = new Rectangle();
-			
+			//trace(stage.stageHeight, stage.stageWidth, Constants.stageHeight , Constants.stageWidth)
 			// 根据宽高比,移动viewPort位置
 			if (stage.stageHeight / stage.stageWidth < Constants.aspectRatio)
 			{
-				viewPort.height = screenHeight;
+				viewPort.height = screenHeight; trace(screenHeight)
 				viewPort.width  = int(viewPort.height / Constants.aspectRatio);
 				viewPort.x = int((screenWidth - viewPort.width) / 2);
 			}
@@ -121,7 +121,7 @@ package
 				// Starling is ready! We remove the startup image and start the game.
 				//removeChild(startupImage);
 				
-				mStarling.simulateMultitouch = true;
+				//mStarling.simulateMultitouch = true;
 				mStarling.showStats = false;
 				mStarling.start();
 			});
